@@ -14,6 +14,8 @@ export function ComponentSource({
   className,
   ...props
 }: ComponentSourceProps) {
+  console.log(children)
+
   return (
     <CodeBlockWrapper
       expandButtonTitle="Expand"

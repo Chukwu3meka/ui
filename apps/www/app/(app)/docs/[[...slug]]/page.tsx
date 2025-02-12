@@ -84,6 +84,8 @@ export default async function DocPage({ params }: DocPageProps) {
     notFound()
   }
 
+  console.log(doc)
+
   const toc = await getTableOfContents(doc.body.raw)
 
   return (
